@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+      <div class="cards">
+        <label class="card" for="item-1" id="song-1">
+            <iframe width="380" height="450" src="https://www.youtube.com/embed/nR1Prk3nT98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </label>
+        <label class="card" for="item-2" id="song-2">
+            <iframe width="380" height="450" src="https://www.youtube.com/embed/2Ax_EIb1zks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </label>
+        <label class="card" for="item-3" id="song-3">
+            <iframe width="380" height="450" src="https://www.youtube.com/embed/0CCEi4VDUZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </label>
+      </div>
+      <div class="player">
+        <div class="upper-part">
+          <div class="play-icon">
+            <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-play" viewBox="0 0 24 24">
+              <defs/>
+              <path d="M5 3l14 9-14 9V3z"/>
+            </svg>
+          </div>
+          <div class="info-area" id="test">
+            <label class="song-info" id="song-info-1">
+              <div class="title">Rumors</div>
+              <div class="sub-line">
+                <div class="subtitle">NEFFEX</div>
+                <div class="time">4.14</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-2">
+              <div class="title">TheFatRat</div>
+              <div class="sub-line">
+                <div class="subtitle">Xenogenesis</div>
+                <div class="time">3.56</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-3">
+              <div class="title">Vico C</div>
+              <div class="sub-line">
+                <div class="subtitle">Me acuerdo</div>
+                <div class="time">5.44</div>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="progress-bar">
+          <span class="progress"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <main class="container">
+        <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> 
+        <section class="main-video">
+            <video src="videos/Post Malone; Rockstar ft. 21 savage [Traducida al español].mp4" controls autoplay muted></video>
+            <h3 class="title">Título de la lista de reproducción de video.</h3>
+        </section>
+        <section class="video-playlist">
+            
+            <p>Musicas &nbsp; . &nbsp; 50m 48s</p>
+            <div class="videos">
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
